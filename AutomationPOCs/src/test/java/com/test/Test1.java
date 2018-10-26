@@ -15,7 +15,7 @@ WebDriver driver;
 	public void setUp() {
 		System.out.println("*******************");
 		System.out.println("launching the browser");
-		System. setProperty("webdriver.chrome.driver", "Downloads\\chromedriver.exe");
+		System. setProperty("webdriver.chrome.driver", "C:\\Users\\sayantan.bishal\\eclipse-workspace\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
